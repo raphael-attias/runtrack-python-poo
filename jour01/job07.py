@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Made in Marseille
+@author: Raphael
+"""
+# email : raphael.attias@laplateforme.io
+
 class Personnage:
     def __init__(self, x=0, y=0, taille_plateau=5):
         self.x = x
