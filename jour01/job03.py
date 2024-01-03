@@ -15,8 +15,8 @@ class Operation:
         resultat = self.nombre1 + self.nombre2
         return resultat
 
-operation_instance = Operation()
+variables_doper = Operation()
 
-print("le nombre 1 est :", operation_instance.nombre1)
-print("le nombre 2 est :", operation_instance.nombre2)
-print("l'addition est : ", operation_instance.addition())
+print("le nombre 1 est :", variables_doper.nombre1)
+print("le nombre 2 est :", variables_doper.nombre2)
+print("l'addition est : ", variables_doper.addition())
