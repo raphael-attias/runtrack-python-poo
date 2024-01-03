@@ -39,23 +39,10 @@ class Produit:
 produit1 = Produit("Produit_X", 10, 20)
 produit2 = Produit("Produit_Y", 20, 15)
 
-infos_produit1 = produit1.ObtenirInformations()
-infos_produit2 = produit2.ObtenirInformations()
+infos_produit1 = produit1.infos_generale()
+infos_produit2 = produit2.infos_generale()
 
 print("Informations initiales des produits :")
 print(infos_produit1)
+print()
 print(infos_produit2)
-
-produit1.modifierNom("Nouveau Produit_X")
-produit1.modifierPrix(15)
-
-produit2.modifierNom("Nouveau Produit_Y")
-produit2.modifierPrix(25)
-
-# Obtention prix après TVA
-modif_produit1 = produit1.ObtenirInformations()
-modif_produit2 = produit2.ObtenirInformations()
-
-print("Informations des produits après TVA :")
-print(modif_produit1)
-print(modif_produit2)
