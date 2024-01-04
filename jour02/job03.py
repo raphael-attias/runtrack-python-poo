@@ -60,14 +60,10 @@ mon_livre = Livre("Titre du Livre", "Auteur du Livre", 200)
 
 print(f"Disponible : {mon_livre.verification()}")
 
-# Emprunter le livre
 mon_livre.emprunter()
 
-# Vérifier la disponibilité après l'emprunt
 print(f"Disponible : {mon_livre.verification()}")
 
-# Rendre le livre
 mon_livre.rendre()
 
-# Vérifier la disponibilité après le rendu
 print(f"Disponible : {mon_livre.verification()}")
