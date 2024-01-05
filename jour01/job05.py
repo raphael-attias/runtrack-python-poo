@@ -27,7 +27,6 @@ class Point:
 
 point = Point(3, 4)
 
-# les méthodes utilisés
 point.AfficherLesPoints()
 point.AfficherX()
 point.AfficherY()

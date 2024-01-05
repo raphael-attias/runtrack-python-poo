@@ -13,7 +13,6 @@ class Livre:
         self.__nbrpages = nbrpages
         self.__disponible = True
 
-    # Assesseurs (getters)
     def get_titre(self):
         return self.__titre
 
@@ -26,7 +25,6 @@ class Livre:
     def is_disponible(self):
         return self.__disponible
 
-    # Mutateurs (setters)
     def set_titre(self, titre):
         self.__titre = titre
 

@@ -11,7 +11,6 @@ class Personne:
         self.prenom = prenom
     
     def SePresenter(self):
-        # Concaténation de la chaîne (+ xxxx +)
         return "Je suis " + self.nom + " " + self.prenom
 
 

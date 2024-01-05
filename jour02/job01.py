@@ -29,7 +29,6 @@ rect = Rectangle(10,5)
 print("Longueur du rectangle :", rect.get_longueur())
 print("Largeur du rectangle :", rect.get_largeur())
 
-# nouvelle valeur du rectagle grâce au set
 rect.set_largeur(8)
 rect.set_longueur(6)
 

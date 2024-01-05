@@ -36,7 +36,6 @@ print("Auteur du livre :", livre_a.get_auteur())
 print("Nombre de pages du livre :", livre_a.get_nbrpages())
 print()
 
-# modifications du nombre de pages
 livre_a.set_nbrpages(100)
 
 print("Données du livre mis à jour : ")
